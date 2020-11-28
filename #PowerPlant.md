@@ -35,7 +35,7 @@ pip install xlrd
 ```
 ### Then we can do this command line
 ```Python
-df = pd.read_excel("D:\efrei\cours\s7\machine learning\lab1\CCPP\Folds5x2_pp.xlsx", sheet_name = None)
+df = pd.read_excel("..\CCPP\Folds5x2_pp.xlsx", sheet_name = None)
 df = pd.concat(df, axis = 0, ignore_index = True)
 print(df.head())
 ```
